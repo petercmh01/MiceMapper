@@ -234,7 +234,8 @@ if __name__ == "__main__":
         pca = PCA(args.ndirs, batch_w)
         ll.assign_buffers(pca)
         if args.assign_vector is not none:
-            encoded_w = pca.encode(args.assign_vector)
+            vector=torch.load('args.assign_vector')
+            encoded_w = pca.encode(vector)
             ll.assign_coefficients(encoded_w)
         if args.clustering:  # For clustering models, initialize using K-Means++ on W-Space
             print('Running K-Means++ Initialization')
