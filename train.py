@@ -233,6 +233,9 @@ if __name__ == "__main__":
         batch_w = all_gather(batch_w)
         pca = PCA(args.ndirs, batch_w)
         ll.assign_buffers(pca)
+        if args.assign_vector is not none:
+            encoded_w = pca.encode(args.assign_vector)
+            ll.assign_coefficients(encoded_w)
         if args.clustering:  # For clustering models, initialize using K-Means++ on W-Space
             print('Running K-Means++ Initialization')
             if args.debug:
