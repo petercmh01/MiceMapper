@@ -30,7 +30,9 @@ def base_training_argparse():
     parser.add_argument("--flow_identity_weight", default=1.0, type=float, help='Loss weighting of the identity regularizer on the residual flow')
     parser.add_argument("--freeze_ll", action='store_true', help='If specified, disables learning of the congealing vector')
     parser.add_argument("--sample_from_full_res", action='store_true', help='If specified, pixels will be sampled from the full resolution fake images during training instead of from downsampled versions')
-
+    parser.add_argument("--assign_vector", type=str, required=False, help="load and assign a d=512 vector to single-head model")
+    
+    
     # Clustering hyperparameters (leave default to use standard unimodal GANgealing):
     parser.add_argument("--num_heads", default=1, type=int, help='The number of clusters to learn and independently congeal. Setting >1 enables the clustering version of GANgealing')
     parser.add_argument("--flips", action='store_true', help='If specified, during training input fake images and their mirrors are input to the STN, and only the min of the two losses is optimized')
