@@ -8,7 +8,7 @@ Our model can spatially transform the uncongealed mice to a general mice's repre
 
 This method allows analysis of dense-pose and highly fine-detailed motion on mice's body
 
-Some sample will be demonstrated below. Due to credentials reason, trainin method, model checkpoints and analysis code is provided only by request of permission
+Sample are demonstrated below. Trainin method, model checkpoints and analysis code are provided by request of permission
 
 # Dense-tracking of mice
 
