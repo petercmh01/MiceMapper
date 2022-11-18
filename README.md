@@ -16,7 +16,10 @@ Some sample will be demonstrated below. Due to credentials reason, trainin metho
 
 # Spatial-temporal representation of mice's body part motion
 
+
 ![ae6bb4e782e3646b29165948c265051](https://user-images.githubusercontent.com/87956324/202588897-35f5a8b2-0d74-4088-8411-0a0a95dcde2e.jpg)
+
+![ezgif-4-0a4561b3b6](https://user-images.githubusercontent.com/87956324/202589329-42420d6c-041d-4939-9e7a-ddcd47fa3232.gif)
 
 
 
