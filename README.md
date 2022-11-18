@@ -24,6 +24,6 @@ Some sample will be demonstrated below. Due to credentials reason, trainin metho
 
 
 
-Activation heatmap of motion on general mice template
+# Activation heatmap of motion on general mice template
 
 ![image](https://user-images.githubusercontent.com/87956324/202589116-868a5589-e8a1-49d8-a756-892a0d1099b8.png)
