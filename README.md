@@ -1,4 +1,4 @@
-# MiceMapper
+# MiceMapper: GAN-supervised dense tracking of mice
 
 This project is under the supervision of Tim Murphy lab at UBC: https://murphylab.med.ubc.ca/
 
